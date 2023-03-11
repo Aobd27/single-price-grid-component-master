@@ -1,0 +1,163 @@
+
+
+body{
+font-size: 16px;
+font-family: 'Karla', sans-serif;
+box-sizing: border-box;
+background-color: beige;
+}
+
+.header{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.all{
+    border: 1px solid white;
+    border: none;
+    border-radius: 15px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+/*  --------------------------------------  */
+
+.one-box{
+
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+
+
+}
+/*  --------------------------------------  */
+
+
+.join-our-community-box{
+    background-color:white ;
+    padding: 5vh 5vw;
+}
+
+.join-our-community-box h1{
+color: hsl(179, 62%, 43%);
+font-size: 1.3rem;
+}
+
+.join-our-community-box h2{
+    color:hsl(71, 73%, 54%);
+    font-size: 1rem;
+
+    }
+
+.join-our-community-box p{
+    color:hsl(218, 22%, 67%);
+
+    }
+
+
+/*------------------------------------------*/
+.two-bottom-boxes{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+/*------------------------------------------*/
+
+.Subscription-box{
+    background-color:hsl(179, 62%, 43%) ;
+    padding: 2vh 5vw;
+}
+
+.Subscription-box h2{
+    color:white;
+    font-size: 1.3rem;
+
+    }
+
+.Subscription-box h3{
+display: inline-block;
+font-size: 2rem;
+margin: 0.1em 0;
+color: white;
+
+}
+
+.Subscription-box h4{
+    display: inline-block;
+    margin-left:1vw;
+    color:  hsl(204, 43%, 93%);
+    position: relative;
+    bottom: 0.3em;
+    font-weight: normal;
+
+}
+
+.Subscription-box p{
+    color:white;
+    font-weight: normal;
+}
+
+.Subscription-box button{
+  border: none ;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2vh 2vw;
+  margin: auto;
+  margin-top: 1em;
+  display: block;
+  width: 90%;
+
+}
+
+/*------------------------------------------*/
+
+
+.why-us-box{
+    background-color:hsl(179, 62%, 47%) ;
+    padding: 5vh 5vw;
+    
+}
+
+.why-us-box h2{
+    color:white;
+    font-size: 1.3rem;
+}
+
+.why-us-box p{
+    color: hsl(204, 43%, 93%);
+}
+
+.other-bages{
+    margin-top: 5em;
+    height: 50px;
+    width: 100vw;  
+}
+
+@media only screen and (min-width: 786px) { 
+    .two-bottom-boxes{
+        flex-direction: row;
+    }  
+    .Subscription-box{
+     width: 50vw;
+     padding: 10vh 5vw;
+    }
+
+    .Subscription-box button{
+        margin-top: 2em;
+      }
+
+    .why-us-box{
+        width: 50vw; 
+    }
+}
